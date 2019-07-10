@@ -1,0 +1,204 @@
+@media screen and (max-width: 1200px) and (min-width: 800px){
+	.main-wrapper{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	.main-menu{
+		display: flex;
+		flex-direction: column;
+		
+	}
+	.logo{
+		margin: auto;
+	}
+	.logo-txt:after{
+		content: '';
+		display: none;
+	}
+	.menu{
+		width: 50%;
+		margin: auto;
+		justify-content: space-between;
+	}
+	.contact{
+		margin: auto;
+	}
+	.button{
+		display: flex;
+		margin: auto;
+	}
+	.button button{
+		margin: auto;
+	}
+    .slider{
+    	height: 450px;
+    }
+    .slide{
+    	height: 100%;
+    }
+    .adv-info{
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    	justify-content: space-around;
+    }
+    .info:last-child{
+        margin-right: 0px;
+    }
+    .info{
+    	margin-bottom: 15px;
+    }
+    .work-images{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .work-image{
+    	margin-bottom: 10px;
+    }
+    .tattoo-container{
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    }
+    .tattoo-block{
+    	width: 50%;
+    	margin-bottom: 15px;
+    }
+    .register{
+    	flex-direction: column;
+    }
+    .people{
+    	flex-direction: column;
+    	align-items: center;
+    }
+    .person{
+    	margin-bottom: 30px;
+    	border: 1px grey solid;
+    }
+    .footer{
+    	flex-direction: column;
+    	align-items: center;
+    	justify-content: space-around;
+    }
+}
+@media screen and (max-width: 799px){
+	.main-wrapper{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	.main-menu{
+		display: flex;
+		overflow: visible;
+	}
+	.hidden-button, .hidden-button button{
+		display: block;
+        margin: auto;
+	}
+	.hidden-button button{
+		transition: 2s;
+		font-size: 20px;
+		font-weight: bold;
+		transform: rotate(90deg);
+		position: absolute;
+		right: -150px;
+	}
+	.hidden-button button:hover{
+		background-color: rgba(194, 0, 0, 0.7);
+		color: white;
+	}
+	
+	.hidden-button{
+        position: relative;
+	}
+	.logo-txt, .contact, .button{
+		display: none;
+	}
+	.logo{
+		width: 70px;
+		
+	}
+	
+	.menu {
+		width: 100%;
+		position: absolute;
+		top: 90%;
+		transition: 1s;
+		flex-direction: column;
+		align-items: start;
+		background-color: rgba(0,0,0,0.7);
+		transform: translateX(-100%);
+		margin-top: 6px;
+		right: 0;
+		padding-bottom: 10px;
+	}
+	.menu li{
+		margin: auto;
+		width: 90%;
+		
+	}
+	.menu a{
+		padding-left: 20px;
+		transition: 0s;
+		font-size: 20px;
+		font-weight: bold;
+	}
+	.menu a:hover{
+		color: white;
+	}
+	.menu li:hover{
+		background-color: rgba(194, 0, 0, 0.7);
+		transition: 1s;
+	}
+	.drop-down{
+		transform: translateX(0%);
+	}
+    .adv-info{
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    	justify-content: space-around;
+    }
+    .info:last-child{
+        margin-right: 0px;
+    }
+    .info{
+    	margin-bottom: 15px;
+    }
+    .work-images{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .work-image{
+    	margin-bottom: 10px;
+    }
+    .tattoo-container{
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    }
+    .tattoo-block{
+    	width: 50%;
+    	margin-bottom: 15px;
+    }
+    .register{
+    	flex-direction: column;
+    }
+    .people{
+    	flex-direction: column;
+    	align-items: center;
+    }
+    .person{
+    	margin-bottom: 30px;
+    	border: 1px grey solid;
+    }
+    .footer{
+    	flex-direction: column;
+    	align-items: center;
+    	justify-content: space-around;
+    }
+}
+}
